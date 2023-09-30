@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Periódico Escolar</title>
+    <style>
+        body {font-family: Arial, sans-serif;}
+        h1 {text-align: center; color: navy;}
+        article {margin: 20px;}
+    </style>
+</head>
+<body>
+ 
+    <h1>Periódico Escolar</h1>
+    <img src="img/logo.jpg" height="140px" class="center">
+    <article>
+        <h2>Noticias de la Semana</h2>
+        <p>Esta semana en nuestra escuela...</p>
+    </article>
+    <article>
+        <h2>Deportes</h2>
+        <p>Actualizaciones de los equipos deportivos de la escuela...</p>
+    </article>
+    <article>
+        <h2>Eventos Próximos</h2>
+        <p>¡No te pierdas estos próximos eventos!</p>
+    </article>
+
+    <title>Presentación</title>
+    <style>
+        body {font-family: Arial, sans-serif; text-align: center;}
+        h1 {color: navy;}
+        .slide {margin: 50px; padding: 20px; border: 1px solid #ddd;}
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <h1>hoy</h1>
+        <img src="" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Suscipit modi eveniet totam mollitia voluptatem reiciendis debitis 
+            accusamus corrupti ratione odio, hic eaque, 
+            rem sequi dignissimos magnam, eos ullam aliquid. Doloribus.</p>
+    </div>
+    <div class="slide">
+        <h1>Diapositiva 2</h1>
+        <p>Contenido de la segunda diapositiva...</p>
+    </div>
+    <div class="slide">
+        <h1>Diapositiva 3</h1>
+        <p>Contenido de la tercera diapositiva...</p>
+    </div>
+
+</body>
+
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+    </ul>
+</body>
+
+
+</html>
